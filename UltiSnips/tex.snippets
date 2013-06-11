@@ -21,6 +21,10 @@ snippet "b(egin)?" "begin{} / end{}" br
 \end{$1}
 endsnippet
 
+snippet doc "document class" 
+\documentclass{$0}
+endsnippet
+
 ####################
 # TABULARS, ARRAYS #
 ####################
@@ -50,6 +54,21 @@ snippet desc "Description" b
 \begin{description}
 	\item[$1] $0
 \end{description}
+endsnippet
+
+snippet it "Item" 
+\item $0
+endsnippet
+
+################
+# TEXT RELATED #
+################
+snippet tit "Textit" 
+\textit $0
+endsnippet
+
+snippet tbf "Textbf" 
+\textbf $0
 endsnippet
 
 #####################################
